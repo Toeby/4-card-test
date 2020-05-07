@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- link to css stylesheet  -->
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<style media="screen">
+body{
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+  font-family: Poppins, sans-serif;
+  width: 1440px;
+  margin: auto;
+}
+
+h3 {
+  color: rgb(76, 78, 97);
+  padding-left: 20px;
+}
+h5{
+  font-size: 12px;
+  padding-left: 20px;
+  color: hsl(234, 12%, 34%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%);}
+
+.heading {
+  margin-bottom: 45px;
+}
+.upper {
+  margin-top: 50px;
+  margin-bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  color: hsl(234, 12%, 34%);
+  font-weight: 200;
+  font-family: Poppins, sans-serif;
+}
+
+.lower {
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  margin-top: 1px;
+  text-align: center;
+  font-family: Poppins, sans-serif
+}
+.subhead { text-align: center;
+           font-size: 15px;
+           color: hsl(229, 6%, 66%);
+         }
+
+.item{
+  border: 5px;
+  width: 300px;
+  height: 200px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.sup {
+  position: relative;
+  left: 220px;
+  top: -10px;
+
+}
+.cal {
+  position: relative;
+  left: 220px;
+  top: 10px;
+
+}
+
+.col{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 500px;
+  bottom: 220px;
+  box-shadow: 5px 5px 5px grey;
+}
+
+.karma {
+  position: relative;
+  left: 225px;
+  top: 10px;
+}
+
+.team-builder{
+  position: relative;
+  left: 225px;
+  top: 10px;
+}
+
+.container{
+  position: relative;
+  left: 50px;
+}
+#super{
+  position: relative;
+  left: 150px;
+  top: 100px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: Cyan;
+  border-radius: 7px;
+}
+
+#cal{
+  position: absolute;
+  right: 290px;
+  bottom: 310px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: blue;
+  border-radius: 7px;
+}
+
+#team-b{
+  border-top-width: medium;
+  border-top-style: solid;
+  border-top-color: Red;
+  border-radius: 7px;
+}
+
+#kar{
+  position: relative;
+  left: 500px;
+  bottom: 200px;
+  border-top-style: solid;
+  border-top-width: medium;
+  border-top-color: yellow;
+  border-radius: 7px;
+}
+
+</style>
+<body>
+
+
+<div class="heading">
+  <p class= "upper">
+    Reliable, efficient delivery</p>
+  <p class= "lower">
+    Powered by Technology</p>
+
+  <p class = "subhead">
+    Our Artificial Intelligence powered tools use millions of project data</p>
+  <p class = "subhead">
+    points to ensure that your project is successful</p>
+</div>
+
+
+<div class="container">
+  <div class="item" id="super">
+    <h3>Supervisor</h3>
+    <h5>Monitors activity to identify project <br> roadblocks</h5> </br>
+    <img class="sup" src="./images/icon-supervisor.svg" alt="supervisor-img">
+  </div>
+  <div class="col"  id="team-b">
+    <h3>Team Builder</h3>
+    <h5>Scans our talent network to create the <br> optimal team for your project </br></h5>
+    <img class= "team-builder" src="./images/icon-team-builder.svg" alt="team-builder-img">
+
+  </div>
+
+  <div class="col" id="kar">
+    <h3>Karma</h3>
+    <h5>Regularly evaluates our talent to ensure <br> quality</br></h5>
+    <img class="karma" src="./images/icon-karma.svg" alt="karma-img">
+
+
+  </div>
+
+  <div class="item" id="cal">
+    <h3>Calculator</h3>
+    <h5>Uses data from past projects to provide <br> better delivery estimates</h5>
+    <img class="cal" src="./images/icon-calculator.svg" alt="calculator-img">
+
+  </div>
+</div>
+
+
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Tobi Raji</a>.
+    </p>
+  </footer>
+</body>
+</html>
